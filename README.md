@@ -54,7 +54,7 @@ Generates an Excel file named `dependency-report-[date].xlsx` containing:
 node dependency-checker.js
 
 # Run in specific project
-node dependency-checker.js /path/to/your/project
+node check-dependencies.js /path/to/your/project
 ```
 
 ## Requirements
