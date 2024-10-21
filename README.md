@@ -25,7 +25,7 @@ npm install
 
 Run in your project directory:
 ```bash
-node dependency-checker.js [path]
+node check-dependencies.js [path]
 ```
 - `[path]`: Optional. Path to your project directory. Defaults to current directory.
 
@@ -51,7 +51,7 @@ Generates an Excel file named `dependency-report-[date].xlsx` containing:
 
 ```bash
 # Run in current directory
-node dependency-checker.js
+node check-dependencies.js
 
 # Run in specific project
 node check-dependencies.js /path/to/your/project
